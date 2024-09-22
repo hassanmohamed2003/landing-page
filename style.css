@@ -1,0 +1,173 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    padding: 10px;
+}
+
+.top, .footer{
+    background-color: #1f2937;
+}
+
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+    gap: 30px;
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+}
+
+.title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+a{
+    font-size: 22px;
+    color: #E5e7eB;
+    text-decoration: none;
+}
+
+
+.secondary{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button{
+    font-size: 27px;
+    background-color: #3882F6;
+    width: 200px;
+    height: 50px;
+    border-radius: 9px;
+    color: white;
+    border: #3882F6;
+    font-weight: 550;
+}
+
+.information{
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.information-img{
+    height: 100px;
+    width: auto;
+    border: 5px #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.content-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.hero-img{
+    height: 300px;
+    width: auto;
+    padding-left: 40px;
+}
+
+
+.content-2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.content-3{
+    background-color: #E5e7eB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subtext{
+    color: grey;
+    font-size: 20px;
+    text-wrap: wrap;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.quote{
+    font-style: italic;
+    font-weight: 0;
+    font-size: 36px;
+    color: #1f2937;
+    padding-left: 20px;
+}
+
+.quote-maker{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 200px;
+}
+
+.blue-square{
+    background-color: #3882F6;
+    color: white;
+    height: 200px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+p{
+    font-size: x-large;
+}
+
+.content-4{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-button{
+    border: 2px white;
+    border-style: solid;
+}
+
+.action h1{
+    margin-bottom: -20px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
